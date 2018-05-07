@@ -2,5 +2,18 @@
   "name": "Scribe",
   "version": "0.0.1",
   "description": "Simple and clean note taking app, in the browser.",
-  "manifest_version": 2
+  "manifest_version": 2,
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons" : {
+    "16": "src/assets/icons/logo16.png",
+    "32": "src/assets/icons/logo32.png",
+    "48": "src/assets/icons/logo48.png",
+    "128": "src/assets/icons/logo128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/index.html"
+  }
 }
