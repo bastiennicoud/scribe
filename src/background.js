@@ -1,6 +1,6 @@
 /**
  * Background
- * 
+ *
  * Listeners for the extension, executed as backgroud script by chrome
  * @author Bastien Nicoud
  */
