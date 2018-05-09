@@ -7,5 +7,5 @@
 
 // Listen to the click on the extension button in the chrome toolbar
 chrome.browserAction.onClicked.addListener(function () {
-  console.log('Toto')
+  chrome.tabs.create({ url: "src/index.html"})
 })
