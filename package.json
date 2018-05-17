@@ -11,6 +11,9 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "node-sass": "^4.9.0",
+    "pell": "^1.0.4",
+    "sass-loader": "^7.0.1",
     "vue": "^2.5.2"
   },
   "devDependencies": {
